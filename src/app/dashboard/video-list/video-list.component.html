@@ -1,0 +1,5 @@
+<app-video-thumbnail
+  *ngFor="let v of videos"
+  [video]="v"
+  [selected]="v.id === selectedVideo?.id"
+  (click)="videoChange.emit(v)"></app-video-thumbnail>

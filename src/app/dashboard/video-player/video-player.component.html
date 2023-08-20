@@ -1,0 +1,9 @@
+<ng-container *ngIf="video">
+  <youtube-player
+    [videoId]="video.id"
+  ></youtube-player>
+  <p>
+    <strong>{{ video.title }}</strong>
+    {{ video.author }}
+  </p>
+</ng-container>

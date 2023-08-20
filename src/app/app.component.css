@@ -1,0 +1,12 @@
+:host {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: block;
+}
+
+header {
+  display: flex;
+  gap: 6px;
+  padding: 0 0 12px 0;
+  border-bottom: 1px solid #ccc;
+}

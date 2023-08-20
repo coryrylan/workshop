@@ -1,0 +1,25 @@
+section {
+  display: grid;
+  grid-gap: 12px;
+  grid-template-columns: 30% 70%;
+  align-items: start;
+}
+
+label {
+  margin: 12px 0 4px 0;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 24px;
+  font-size: 16px;
+  display: block;
+  border: 1px solid #ccc;
+}
+
+app-video-player {
+  position: sticky;
+  top: 24px;
+}

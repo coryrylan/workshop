@@ -1,0 +1,4 @@
+<button [ngClass]="{'video-selected': selected}">
+  <img [src]="'http://img.youtube.com/vi/' + video.id + '/0.jpg'" alt="{{ video.title }} - {{ video.author }}" loading="lazy" />
+  <h3>{{ video.title }} - {{ video.author }}</h3>
+</button>
