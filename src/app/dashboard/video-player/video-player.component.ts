@@ -1,8 +1,7 @@
-import { Component, Input, SimpleChanges, OnChanges } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
-import { Video } from '../../common/types';
 import { YouTubePlayerModule } from '@angular/youtube-player';
+import { Video } from '../../common/types';
 
 @Component({
   selector: 'app-video-player',
@@ -13,6 +12,4 @@ import { YouTubePlayerModule } from '@angular/youtube-player';
 })
 export class VideoPlayerComponent {
   @Input() video?: Video;
-
-  videoUrl?: SafeUrl;
 }
