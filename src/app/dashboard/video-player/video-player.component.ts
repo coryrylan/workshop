@@ -15,16 +15,4 @@ export class VideoPlayerComponent {
   @Input() video?: Video;
 
   videoUrl?: SafeUrl;
-
-  // constructor(private domSanitizer: DomSanitizer) {}
-
-  // ngOnChanges({video}: SimpleChanges) {
-  //   if (video && video.currentValue) {
-  //     // todo: convert to @angular/yoututbe-player
-  //     // https://bitbucket.org/od-training/abc-20230522/src/10d1f3162bea4bcb491975a0158c33a6bc63a5ec/package.json
-  //     // https://github.com/angular/components/blob/main/src/youtube-player/README.md
-  //     const currentVideo = video.currentValue;
-  //     this.videoUrl = this.domSanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/' + currentVideo.id);
-  //   }
-  // }
 }
